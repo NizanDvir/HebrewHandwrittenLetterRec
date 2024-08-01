@@ -8,7 +8,7 @@ from flask_cors import cross_origin
 app = Flask(__name__)
 
 # load the svm model
-rec_model.load_svm_model()
+rec_model.load_model()
 
 
 @app.get('/options')
